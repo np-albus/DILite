@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using DILite.Attributes;
+using DILite.Extensions.Base;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace DILite.Extensions

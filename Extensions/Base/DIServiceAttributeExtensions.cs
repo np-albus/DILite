@@ -1,8 +1,9 @@
 using System;
 using DILite.Attributes;
+using DILite.Attributes.Enums;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace DILite.Extensions
+namespace DILite.Extensions.Base
 {
     internal static class DIServiceAttributeExtensions
     {

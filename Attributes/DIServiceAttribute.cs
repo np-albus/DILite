@@ -1,4 +1,5 @@
 using System;
+using DILite.Attributes.Enums;
 
 namespace DILite.Attributes
 {

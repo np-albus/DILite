@@ -1,4 +1,4 @@
-namespace DILite.Attributes
+namespace DILite.Attributes.Enums
 {
     public enum DIServiceRegisterType
     {
