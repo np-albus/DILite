@@ -4,14 +4,14 @@
 
     <TargetFramework>netstandard2.0</TargetFramework>
 
-    <Version>0.1.0-beta</Version>
+    <Version>0.1.1-beta</Version>
 
     <Authors>np_albus</Authors>
     <Description>DILite is a lightweight Dependency Injection library.</Description>
     <Copyright>Copyright (c) 2019 np_albus</Copyright>
 
-    <PackageProjectUrl>https://github.com/np-albus/DILite</PackageProjectUrl>
     <RepositoryUrl>https://github.com/np-albus/DILite</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/np-albus/DILite</PackageProjectUrl>
     <PackageLicenseUrl>https://github.com/np-albus/DILite/blob/master/LICENSE</PackageLicenseUrl>
 
   </PropertyGroup>
