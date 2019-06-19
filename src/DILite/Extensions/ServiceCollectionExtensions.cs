@@ -33,6 +33,16 @@ namespace DILite.Extensions
             return services;
         }
 
+        public static IServiceCollection AddDIServices(this IServiceCollection services, Assembly assembly)
+        {
+            var classTypes = assembly.GetTypes().Distinct()
+                .Where(t => t.IsClass && !t.IsAbstract && !t.IsNested && t.CustomAttributes.Any());
+
+            ApplyAttributes(classTypes, services);
+
+            return services;
+        }
+
         private static void ApplyAttributes(IEnumerable<Type> classTypes, IServiceCollection services)
         {
             foreach (var classType in classTypes)
